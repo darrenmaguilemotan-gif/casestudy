@@ -51,6 +51,7 @@ button{
     left: 0;
     width: 100%;
     display: flex;
+    animation-timing-function: initial;
     .cat{
        width: 100px;
     height: 100px;
@@ -60,7 +61,12 @@ button{
    font-family: Arial;
     }
     .button{
-        display: block;
+        display: none;
+    }
+    div{
+        padding-left: 10px;
+        padding-right: 10px;
+        text-align: center;
     }
 }
 }
