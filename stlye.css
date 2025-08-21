@@ -38,13 +38,11 @@ button{
    word-spacing: normal;
    font-family: Arial;
 }
-.burger{
-    cursor: pointer;
-  display: none;
-}
+
+
 @media  (max-width:480px){} 
 @media  (max-width:768px) {.burger {display: block;}
-.button{
+.burger{
     display: none;
     flex-direction: column;
     background-color: #ffe7e7;
@@ -54,8 +52,12 @@ button{
     width: 100%;
     display: flex;
     .cat{
-        padding-left: 150;
-        padding-right: 150;
+       width: 100px;
+    height: 100px;
+    align-items: center;
+   font-size: 100px;
+   word-spacing: normal;
+   font-family: Arial;
     }
     .button{
         display: block;
