@@ -42,7 +42,8 @@ button{
     cursor: pointer;
   display: none;
 }
-@media  (max-width:480px){.burger {display: block;}
+@media  (max-width:480px){} 
+@media  (max-width:768px) {.burger {display: block;}
 .button{
     display: none;
     flex-direction: column;
@@ -51,8 +52,16 @@ button{
     top: 50px;
     left: 0;
     width: 100%;
-} }
-@media  (max-width:600px){ }
+    display: flex;
+    .cat{
+        padding-left: 150;
+        padding-right: 150;
+    }
+    .button{
+        display: block;
+    }
+}
+}
 @media  (min-width:601)and (max-width:768px){  }
 @media  (min-width:768)and (max-width:1024px){ }
 @media  (min-width:1025)and (max-width:1280px){  }
