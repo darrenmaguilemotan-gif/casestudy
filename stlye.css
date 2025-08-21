@@ -43,7 +43,7 @@ button{
 @media  (max-width:480px){} 
 @media  (max-width:768px) {.burger {display: block;}
 .burger{
-    display: none;
+    display: block;
     flex-direction: column;
     background-color: #ffe7e7;
     position: absolute;
@@ -51,7 +51,7 @@ button{
     left: 0;
     width: 100%;
     display: flex;
-    animation-timing-function: initial;
+    animation: name duration timing-function delay iteration-count direction fill-mode;
     .cat{
        width: 100px;
     height: 100px;
