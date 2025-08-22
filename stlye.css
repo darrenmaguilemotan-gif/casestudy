@@ -15,6 +15,11 @@ div{
     padding-right: 250px;
 
 }
+div.information{
+    text-align: left;
+    text-align: justify;
+    padding-top: 0;
+}
 .main{
 padding: 100px;
 font-size: larger;
@@ -43,10 +48,8 @@ button{
     cursor: pointer;
   display: none;
 }
-@media  (max-width:480px){} 
-@media  (max-width:768px) {.burger {display: block;}
 .burger{
-    display: block;
+    display: none;
     list-style: none;
   flex-direction: column;
   background-color: #444;
@@ -57,7 +60,9 @@ button{
   max-height: 0;
   overflow: hidden;
   transition: max-height 0.4s ease-out;
-  
+@media  (max-width:480px){} 
+@media  (max-width:768px) {.burger {display: block;}
+
 }
 .button{
     cursor: pointer;
